@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -71,3 +72,50 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# User-specific settings
+UserSettings/
+*.userprefs
+
+# Visual Studio / Rider project files
+.vscode/
+*.csproj
+*.pidb
+*.sln
+*.suo
+*.user
+*.unityproj
+*.booproj
+*.swp
+*.tmproj
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package cache
+[Pp]ackages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# Memory captures
+MemoryCaptures/
+
+# Unity Cloud Build generated files
+*.stacktrace.txt
+
+# Ignore other large generated files
+*.apk
+*.aab
+*.unitypackage
+*.log
+>>>>>>> 29e1a2b (Initial Commit, first iteration of Woozsurfers. No sprites made, very basic game.)
